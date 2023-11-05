@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h3>Kochi Shopping App</h3>
+            <nav>
+                <button><a href="register.html">Home</a></button>
+                <button><a href="categorylist.html">Category List</a></button>
+                <button><a href="productlist.html">Product List</a></button>
+                <button><a href="addcategory.html">Add Category</a></button>
+                <button><a href="addProducts.html">Add Product</a></button>
+                <button><a href="">Logout</a></button>
+            </nav>
+        </div>
+        <h1>Add Category</h1>
+    </header> 
+    <section>
+        <article>
+            <div>
+                <form action="productlist.html">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" required id="name"  name="name" placeholder="Enter the name of the product">
+                    <br>
+                    <label for="price">Price</label>
+                    <br>
+                    <input type="text" required id="price" name="price" placeholder="Enter the price">
+                    <br>
+                    <label for="category">Category</label>
+                    <br>
+                    <input type="text" required name="Category" placeholder="Enter the  Category">
+                    <br>
+                    <label for="date">Date</label>
+                    <br>
+                    <input type="date" required id="date">
+                    <br>
+                    <label for="imgurl">Image URL</label>
+                    <br>
+                    <input type="url" name="imgurl" id="imgurl" placeholder="Pass the URL">
+                    <br>
+                    <input type="submit" value="Add Product">
+        
+                </form>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
