@@ -1,0 +1,48 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+.cssday{
+    width: 100px;
+    margin: 10px 0px 20px 200px;
+}
+.lb{
+    position: absolute;
+    margin-top: 10px;
+    font-size: 20px;
+}
+#date{
+    margin-left: 200px;
+    margin: 10px 0px 20px 200px;
+    
+}
+.csday{
+    margin: 10px 40px 20px 100px;
+}
+option:checked{
+    color: azure;
+    background-color: red;
+}
+#sub{
+    background-color: blue;
+    color: azure;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+    padding: 0 auto;
+}
+input{
+    border-width: 0px 0px 2px 0px;
+}
+label::first-letter{
+    font-size: 30px;
+    color: red;
+}
+input[type="text"]{
+    border-color: rgb(55, 0, 255);
+}
+input[type="text"]:active{
+    border-color: green;
+    border-width:0px 0px 5px;
+}

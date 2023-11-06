@@ -1,0 +1,104 @@
+html,
+body {
+    
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 0%;
+    margin: 0px;
+    background-color: white;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    
+    margin: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#headdiv {
+    width: 100%;
+    margin-top: 1%;
+    box-sizing: border-box;
+    /* background-color: blue; */
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px 0px 10px 70px;
+    
+}
+
+button {
+    height: 40px;
+    width: 130px;
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+    border-radius: 20%;
+    border: none;
+}
+#aone{
+    color: white;
+}
+a {
+    font-size: medium;
+    color: blue;
+    text-decoration: 0px;
+}
+#reg {
+    background-color: blue;
+    color: white;
+
+}
+h1
+{
+    margin: 1px 60px 10px;
+}
+section{
+    width: 100%;
+    background-color: blue;
+}
+article{
+    width:100%;
+    position: absolute;
+    background-color: brown;
+    box-sizing: border-box;
+}
+#fdiv{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    box-sizing: border-box;
+}
+form{
+    width: 100%;
+    padding: 1% 2%;
+    left:3%;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+input{
+    padding: .4% 0% 1%;
+    width: 94%;
+    margin: 1% 0% 1%;
+    border-width:0px 0px 1px ;
+}
+label{
+    margin: 1% 0% 1% 0%;
+}
+input[type="submit"]{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    width: 10%;
+    padding: 1%;
+    border-radius: 10%;
+    border:none
+}

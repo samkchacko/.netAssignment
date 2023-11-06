@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstPage</title>
+    <link rel="stylesheet" href="../css/employeeadd.css">
+</head>
+
+<body>
+    <h1>Add Employee</h1>
+    <div id="one">
+        <form id="fom" action="done.htm">
+            <label class="lb" for="Name">Enter the Name</label>
+            <input type="text" placeholder="Name" id="Name" class="cssday" required autofocus>
+            <br>
+            <label class="lb" for="email">Enter the email</label>
+            <input type="email" id="email" class="cssday" required placeholder="Enter the email">
+            <br>
+            <label class="lb" for="Date">Date of Birth</label>
+            <input type="date" id="date" name="Dt" id="Date" required>
+            <br>
+            <label class="lb" for="pincode">enter the pincode</label>
+            <input type="text" class="cssday" id="pincode" pattern="[0-9]{6}" placeholder="pincode" title="pls mathc the req format">
+            <br>
+            <label class="lb" for="cond">Country</label>
+            <input type="text" class="cssday" id="cond" name="coun" list="Country" required>
+            <datalist id="Country">
+                <option value="Australia">Australia</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+            </datalist>
+            <br>
+            <input type="range" class="cssday" min="0" max="10" step="1" value="8" required>
+            <p>Gender</p>
+            <label class="lb" for="Male">Male</label>
+            <input class="csday" type="radio" id="Male" value="Male" name="Gender" required>
+            <label class="lb" for="Female">Female</label>
+            <input class="csday" type="radio" id="Female" value="Female" name="Gender">
+            <br>
+            <label class="lb" for="Skill">Skill</label>
+            <select  name="Skills" class="cssday" id="Skill" required>
+                <option value="">Select</option>
+                <option value=".Net">.Net</option>
+                <option value="Angular">Angular</option>
+                <option value="SQL">SQL</option>
+                <option value="Python">Python</option>
+            </select>
+            <h2>HTML Geolocation</h2>
+<p>Click the button to get your coordinates.</p>
+
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+            <input type="submit" id="sub" value="Add Employee">
+        </form>
+    </div>
+</body>
+<script>
+    const x = document.getElementById("demo");
+    
+    function getLocation() {
+      if (navigator.geolocation) {
+        console.log(navigator.geolocation)
+        navigator.geolocation.getCurrentPosition(showPosition);
+      } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+      }
+    }
+    
+    function showPosition(position) {
+      console.log(position)
+      x.innerHTML = "Latitude: " + position.coords.latitude + 
+      "<br>Longitude: " + position.coords.longitude;
+    }
+    </script>
+</html>

@@ -1,0 +1,105 @@
+html,body{
+    height:100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+form{
+    height: 100%;
+    width:100%;
+    padding:10% 20% 1% 20%;
+    box-sizing: border-box;
+}
+#one{
+    border-radius: 20%;
+    height: 90%;
+    width:35%;
+    border:2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cssday{
+    position: relative;
+    margin: 10px 100px 25px;
+
+}
+.lb{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 3px;
+}
+#two{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    margin-bottom: 1%;
+    flex-wrap: nowrap;box-sizing: border-box;
+}
+#m1{
+    left: 10%;
+    margin-left: 20px;
+    position: relative;
+}
+.csday{
+    position: relative;
+    left: 1%;
+    /* margin-left: 20px; */
+}
+#Male{
+    margin-left:10%;
+    margin-right: 10px;
+}
+#Female{
+    margin-left: 1%;
+}
+input{
+    border-width: 0px 0px 3px 0px;
+    border-color: blue;
+    border-style:dotted;
+}
+#submit{
+    background-color: blue;
+    border-radius: 10%;
+    height: 30px;
+    width: 70px;
+    color: azure;
+}
+label,p{
+    color: red;
+}
+select{
+    background-color: blue;
+    
+    border-radius: 10%;
+    width: 50%;
+    height: 1.5em;
+    text-align: center;
+   
+}
+input[type="radio"]:active{
+    color: rgb(106, 178, 128)
+}
+option:checked{
+    background-color: rgb(255, 3, 3); 
+    color: rgb(0, 255, 255);
+    width: 50%;
+}
+#date{
+    width:60%;
+    color: azure;
+}
+::placeholder{
+    color: blue;
+    text-align: center;
+}

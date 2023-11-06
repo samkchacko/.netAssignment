@@ -3,31 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../cascadess/prol.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h3>Kochi Shopping App</h3>
-        <nav>
-            <button><a href="register.html">Home</a></button>
-            <button><a href="categorylist.html">Category List</a></button>
-            <button><a href="productlist.html">Product List</a></button>
-            <button><a href="addcategory.html">Add Category</a></button>
-            <button><a href="">Add Product</a></button>
-            <button><a href="">Logout</a></button>
-        </nav>
-        <h1>Product List</h1>
+        <div id="headdiv">
+            <nav>
+                <h3>Kochi Shopping App</h3>
+                <button class="navbutton" id="reg"><a id="aone" href="register.html">Home</a></button>
+                <button class="navbutton" id="catlist"><a href="categorylist.html">Category List</a></button>
+                <button class="navbutton" id="prolist"><a href="productlist.html">Product List</a></button>
+                <button class="navbutton" id="addcat"><a href="addcategory.html">Add Category</a></button>
+                <button class="navbutton" id="addpro"><a href="addProducts.html">Add Product</a></button>
+                <button class="navbutton" id="Logout"><a href="">Logout</a></button>
+            </nav>
+            <h1>Product List</h1>
+        </div>
     </header>
-    <section style="display: flex;flex-direction: row;flex-wrap: wrap; align-items: stretch;max-width: 100vh;">
-        <article style="flex: 0 0 250px ; margin: 0 40px 0 0;">
+    <section >
+        <article>
             <div style="border:1px solid black;width:100%; padding: 5%;" >
                 <img src="../img/Headset.webp" alt="Headphone" height="20%" width="100%">
                 <h5>price:&#8377 500.00</h5>
                 <h5>Category: Electronics</h5>
                 <h5>Manufactured Date: Oct 6,2023</h5>
                 <hr>
-                <button><a href="">Edit</a></button>
-                <button><a href="">Delete</a></button>
+                <div id="budiv">
+                    <button id="edit"><a href="">Edit</a></button>
+                    <button id="delete"><a href="">Delete</a></button>
+                </div>
             </div>
         </article>
         <br>
@@ -38,8 +43,10 @@
                 <h5>Category: Electronics</h5>
                 <h5>Manufactured Date: Oct 3,2023</h5>
                 <hr>
-                <button><a href="">Edit</a></button>
-                <button><a href="">Delete</a></button>
+                <div id="budiv">
+                <button id="edit"><a href="">Edit</a></button>
+                <button id="delete"><a href="">Delete</a></button>
+            </div>
             </div>
         </article>
     </section>

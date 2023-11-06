@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addemp.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="one">
+        <form action="">
+            <label class="lb" for="Name">Name</label>
+            <input type="text" placeholder="Name" id="Name" class="cssday" required autofocus>
+            <br>
+            <label class="lb" for="email">Email</label>
+            <input type="email" id="email" class="cssday" required placeholder="Enter the email">
+            <br>
+            <label class="lb" for="Date">Date of Birth</label>
+            <input type="date" class="cssday" id="date" name="Dt" id="Date" required>
+            <br>
+            <label class="lb" for="pincode">Pincode</label>
+            <input type="text" class="cssday" id="pincode" pattern="[0-9]{6}" placeholder="pincode"
+                title="pls mathc the req format">
+            <br>
+            <label class="lb" for="cond">Country</label>
+            <input type="text" class="cssday" id="cond" name="coun" list="Country" required>
+            <datalist id="Country">
+                <option value="Australia">Australia</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+            </datalist>
+            <br>
+            <div id="two">
+                <p>Gender</p>
+                <label class="lbg" id="m1"for="Male">Male</label>
+                <input class="csday" type="radio" id="Male" value="Male" name="Gender" required>
+                <label class="lbg" id="f1" for="Female">Female</label>
+                <input class="csday" type="radio" id="Female" value="Female" name="Gender">
+                <br>
+            </div>
+            <label class="lb" for="Skill">Skill</label>
+            <select name="Skills" class="cssday" id="Skill" required>
+                <option value="">Select</option>
+                <option value=".Net">.Net</option>
+                <option value="Angular">Angular</option>
+                <option value="SQL">SQL</option>
+                <option value="Python">Python</option>
+            </select>
+            <br>
+            <input type="submit" name="" id="submit" value="submit">
+        </form>
+    </div>
+</body>
+
+</html>

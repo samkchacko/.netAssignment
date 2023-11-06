@@ -1,0 +1,100 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    height: 20%;
+    margin: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#headdiv {
+    height: 100%;
+    width: 100%;
+    margin-top: 1%;
+    box-sizing: border-box;
+    /* background-color: blue; */
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px 0px 10px 70px;
+    
+}
+
+button {
+    height: 40px;
+    width: 130px;
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+    border-radius: 20%;
+    border: none;
+}
+
+
+#reg {
+    background-color: blue;
+    color: white;
+
+}
+#aone{
+    color: white;
+}
+a {
+    font-size: medium;
+    color: blue;
+    text-decoration: 0px;
+}
+
+h1
+{
+    margin: 10px 100px 30px;
+}
+#budiv{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: stretch;
+    max-width: 100%;
+    margin-left: 9%;
+}
+article{
+    flex: 0 0 250px ;
+    margin: 0 40px 0 0;
+    
+}
+#edit{
+    background-color: red;
+    
+}
+#edit a{
+    color: white;
+}
+#delete{
+    background-color: grey;
+}
+#delete a{
+    color: white;
+}

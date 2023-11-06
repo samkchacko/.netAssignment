@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../cascadess/register.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
-        <h3>Kochi Shopping App</h3>
-        <nav>
-        <button><a href="register.html">Home</a></button>
-        <button><a href="categorylist.html">Category List</a></button>
-        <button><a href="productlist.html">Product List</a></button>
-        <button><a href="addcategory.html">Add Category</a></button>
-        <button><a href="">Add Product</a></button>
-        <button><a href="">Logout</a></button>
-    </nav>
-    <h1>Register User</h1>
+        <div id="headdiv">
+            
+            <nav>
+                <h3>Kochi Shopping App</h3>
+                <button class="navbutton" id="reg"><a id="aone" href="register.html">Home</a></button>
+                <button class="navbutton" id="catlist"><a href="categorylist.html">Category List</a></button>
+                <button class="navbutton" id="prolist"><a href="productlist.html">Product List</a></button>
+                <button class="navbutton" id="addcat"><a href="addcategory.html">Add Category</a></button>
+                <button class="navbutton" id="addpro"><a href="addProducts.html">Add Product</a></button>
+                <button class="navbutton" id="Logout"><a href="">Logout</a></button>
+            </nav>
+            <h1>Register User</h1>
+        </div>
     </header>
     <section>
         <article>
             <div id="register_div">
-            <form action="categorylist.html">
-                <label for="name">Name</label>
-                <br>
-                <input type="text" id="name" pattern="[A-Za-z]{3,30}" required>
-                <br>
-                <label for="email">Email</label>
-                <br>
-                <input type="email" id="email" required>
-                <br>
-                <label for="password">Password</label>
-                <br>
-                <input type="password" id="password" pattern="[a-zA-Z0-9]{9-12}" required>
-                <br>
-                <label for="date">Date of Birth</label>
-                <br>
-                <input type="date" id="date">
-                <br>
-                <input type="submit" value="Register">
-            </form>
-        </div>
+                <form action="categorylist.html">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" pattern="[A-Za-z]{3,30}" required>
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" required>
+                    <br>
+                    <label for="password">Password</label>
+                    <br>
+                    <input type="password" id="password" pattern="[a-zA-Z0-9]{9-12}" required>
+                    <br>
+                    <label for="date">Date of Birth</label>
+                    <br>
+                    <input type="date" id="date">
+                    <br>
+                    <div id="subdiv">
+                    <input type="submit" value="Register">
+                    <input type="button" id="reglog" value="Login">
+                </div>
+                </form>
+            </div>
         </article>
     </section>
 </body>

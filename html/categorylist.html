@@ -3,63 +3,64 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../cascadess/cat.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <div>
+    <div id="headdiv">
+            
+        <nav>
             <h3>Kochi Shopping App</h3>
-            <nav>
-                <button><a href="register.html">Home</a></button>
-                <button><a href="categorylist.html">Category List</a></button>
-                <button><a href="productlist.html">Product List</a></button>
-                <button><a href="addcategory.html">Add Category</a></button>
-                <button><a href="">Add Product</a></button>
-                <button><a href="">Logout</a></button>
-            </nav>
-        </div>
-    </header>
+            <button class="navbutton" id="reg"><a id="aone" href="register.html">Home</a></button>
+            <button class="navbutton" id="catlist"><a href="categorylist.html">Category List</a></button>
+            <button class="navbutton" id="prolist"><a href="productlist.html">Product List</a></button>
+            <button class="navbutton" id="addcat"><a href="addcategory.html">Add Category</a></button>
+            <button class="navbutton" id="addpro"><a href="addProducts.html">Add Product</a></button>
+            <button class="navbutton" id="Logout"><a href="">Logout</a></button>
+        </nav>
+        <h1>Category List</h1>
+    </div>
+</header>
     <Section>
-        <article>
-            <h1>Category List</h1>
-        </article>
-        <article>
-            <div style="width: 100%;">
-                <table style="width: 100%;">
+        <article id="onea">
+        
+            <div id="dtable" style="width: 100%;">
+                <table >
                     <thead>
                         <tr>
-                            <th style="border: 0px solid black; width:50%;">
+                            <th >
                                 <h4>Category Id</h4>
                             </th>
-                            <th style="border: 0px solid black; width: 50%;">
+                            <th>
                                 <h4>Name</h4>
                             </th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td style="border: 0px solid black;padding:0 0 0 25%">
+                            <td >
                                 <h5>1</h5>
                             </td>
-                            <td style="border: 0px solid black;padding:0 0 0 23%">
+                            <td >
                                 <h5>Furniture</h5>
                             </td>
                         </tr>
                         <tr>
-                            <td style="border: 0px solid black;padding:0 0 0 25%">
+                            <td >
                                 <h5>2</h5>
                             </td>
-                            <td style="border: 0px solid black;padding:0 0 0 23%">
+                            <td >
                                 <h5>Electronics</h5>
                             </td>
                         </tr>
                         <tr>
-                            <td style="border: 0px solid black;padding:0 0 0 25%">
+                            <td>
                                 <h5>3</h5>
                             </td>
-                            <td style="border: 0px solid black;padding:0 0 0 23%">
+                            <td >
                                 <h5>Toys</h5>
                             </td>
                         </tr>

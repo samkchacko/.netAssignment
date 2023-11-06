@@ -1,0 +1,139 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+h1{
+    color: blue;
+    text-align: center;
+    text-decoration:underline double;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+p{
+    color: brown;
+       
+}
+/*
+#two{
+    font-weight: bolder;
+}*/
+#div_one{
+    min-height: 100px;
+    height: 400px;
+    width: 400px;
+    top:0;
+    min-width: 100px;
+    background-color: blue;
+    border:10px dotted red;
+    position: absolute;
+    opacity: 1;
+    z-index: 1;
+}
+#div_two{
+    
+    height: 500px;
+    width: 700px;
+    top:500px;
+    background-image:url('../img/R.jpg');   
+    border:4px solid red;
+    position:absolute;
+   left:25px;
+    /*visibility: hidden;*/
+    /*display: none;*/
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    transition: 2s;
+    border-width: thick;
+    margin: 0 auto; 
+    z-index: -1;
+    border-radius: 25%;
+    
+}
+#div_two:hover{
+    transform:scale(1.2);
+    border:10px dotted;
+    border-color: aliceblue red green yellowgreen;
+    border-radius: 50%; 
+    rotate: 360deg;
+    left:25px;
+    float: right;
+}
+#div_two:hover::after{
+    height: 400px;
+    width: 700px;
+    
+    background-image:url('../img/R.jpg');   
+    border:4px solid red;
+    position:absolute;
+    /* border-radius: 50%; */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* transition: 2s; */
+    margin: 0 auto; 
+}
+#border{
+    width:500px;
+    height:300px;
+    border: 5px solid red;
+}
+#two{
+    padding: 100px;
+    width: 300px;
+    line-height: 1px;
+    box-sizing: content-box;
+    font-weight: bolder;
+}
+#sec_one :last-child{
+    text-decoration: underline solid rgb(0, 60, 255);
+}
+/*#sec_one :nth-child(2){
+    text-transform: capitalize;
+    line-height: 60px;
+    
+}*/
+#last{
+    letter-spacing: 2px;
+    line-height: 60px;
+    text-wrap:nowrap;
+    font-style: italic;
+}
+p{
+    
+    font-size: 20px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-style: oblique;
+}
+#div_three{
+    height: 600px;
+    width:100%;
+    background-color: rgb(42, 56, 165);
+    position: relative;
+    margin-top:100% ;
+}
+#four{
+    color: chartreuse;
+    
+}
+img{
+    float: right;
+    transition: 2s;
+    cursor: pointer;
+    position: absolute;
+    /* border-radius: 50%; */
+}
+img:hover{
+    rotate:3600deg;
+    border-radius: 50%;
+    
+}
+a{
+    font-size: 30px;
+}
+a:hover{
+    color: green;
+}
+a:hover::after{
+    color: red;
+}
